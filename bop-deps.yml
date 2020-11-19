@@ -1,0 +1,19 @@
+
+
+search-in:
+  - url: https://sea-kg.com/music/
+    with-credentials: no
+
+targets:
+  music:
+    deps-prod:
+      - 2020_mi_zoomka
+    deps-dev:
+      - 2020_mi_zoomka
+
+deps:
+  2020_mi_zoomka:
+    files:
+      linux:
+        "2020_mi_zoomka/sea5kg%20-%20Mi%20Zoomka%20(30.08.2020).mp3": "bin/audio.mp3"
+        "2020_mi_zoomka/cover.jpg": "bin/image.jpg"
